@@ -12,11 +12,19 @@
     <title>Fetch API</title>
   </head>
   <body>
-    <header class="input-search-header">
-      <form>
-        <input type="search" placeholder="Search..." />
-        <button class="fa-solid fa-magnifying-glass" type="submit"></button>
-      </form>
-    </header>
+    <div class="searchBox">
+      <div class="input-search-container">
+        <input id="artistName" type="search" placeholder="Artist Name"" />
+        <button
+          id="search"
+          class="fa-solid fa-magnifying-glass"
+          type="submit"
+        ></button>
+      </div>
+    </div>
+    <div class="albumBox">
+      <div class="albumContent"></div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
